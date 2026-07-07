@@ -1,19 +1,32 @@
-/* 
-  ==================================================
-  Feel Good Generator – Style Guide
-  ==================================================
 
-  ✨ Brand Personality:
-  Uplifting, playful, simple, and calming. Designed 
-  to create a positive, low-pressure interaction that 
-  feels lightweight and enjoyable.
+ *{
+    background:#1ccdfe;
+    color:#354664;
+}
+h1{
+font-weight: bold;
+font-size:50px;
 
-  🎨 Colors:
-  - Background: #1ccdfe (Bright, clean cyan for energy)
-  - Container: white (#ffffff) for clarity and contrast
-  - Button: #f95f62 (Warm coral for a friendly pop)
-  - Button Hover: #e14c51 (Slightly darker coral for interaction)
-  - Text: #354664 (Soft slate blue for readability and tone)
+}
+div{
+background: #ffffff; 
+width:200px;
+height:200px;
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+button{
+  background:#f95f62;
+}
+button:hover{
+    background-color: #e14c51;
+  }
+/*
+
 
   🔠 Typography:
   - Font: "Onest", a modern, humanist sans-serif
