@@ -9,7 +9,7 @@
 */
 
 // 1. Get the button and output area from the HTML
-const button = document.getElementbyID("CButt");
+const booty = document.getElementById("CButt");
 let output = document.querySelector ("#output");
 
 // 2. Create a list of compliments to choose from
@@ -17,7 +17,10 @@ const comp= ["You can do it!", "You're Amazing!", "The Sun is Shining Bright!", 
 
 
 // 3. Listen for a button click
-
+booty.addEventListener("click",function(){
+  let num = Math.floor(Math.random() * 10)
+  console.log (comp[num]);
+});
 // 4. Pick a compliment at random
 
 // 5. Update the page with the compliment and a random image
